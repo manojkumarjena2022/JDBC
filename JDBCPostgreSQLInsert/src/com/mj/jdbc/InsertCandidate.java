@@ -11,6 +11,11 @@ import java.util.Scanner;
  * @author Manoj
  *
  */
+/*
+ * CREATE SEQUENCE candidate_cid_seq START WITH 100 INCREMENT BY 1 MAXVALUE 10000;
+ * 
+ * CREATE TABLE candidate ( cid integer DEFAULT nextval('candidate_cid_seq') NOT NULL, name varchar(100), age integer, avg float, PRIMARY KEY (cid) );
+ */
 public class InsertCandidate {
 	//insert sql query string
 	public static String POSTGRE_INSERT_QUERY="INSERT INTO CANDIDATE VALUES(NEXTVAL('candidate_cid_seq'),?,?,?)";
