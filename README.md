@@ -1,7 +1,7 @@
-JDBC Program
+JDBC Program:
 This is a Java program that demonstrates the use of JDBC (Java Database Connectivity) to connect to a database, execute SQL queries, and retrieve results. The program uses the standard JDBC API and does not depend on any ORM (Object-Relational Mapping) framework or external library.
 
-Features
+Features:
 The program provides the following features:
 
 Connect to a database using JDBC driver and URL
@@ -24,5 +24,5 @@ Copy the JDBC driver JAR file to the program directory
 Edit the each program file to set the database connection parameters
 Run the program using a Java runtime (e.g., java)
 
-Author
+Author:
 This program is written by Manoj Kumar Jena (manojkumarjena2022@gmail.com). Feedback and contributions are welcome.
