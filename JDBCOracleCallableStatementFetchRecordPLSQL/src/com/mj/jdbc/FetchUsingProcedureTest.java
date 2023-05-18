@@ -13,6 +13,12 @@ import java.util.Scanner;
  * @author Manoj
  *
  */
+/*
+ * CREATE OR REPLACE PROCEDURE PROCEDURE_GET_PERSON_DETAILS_BY_ID ( ID IN NUMBER, NAME OUT VARCHAR2 , DOB OUT DATE , DOJ OUT DATE ) AS 
+ * BEGIN 
+ * SELECT NAME,DOB,DOJ INTO NAME,DOB,DOJ FROM PERSON_INFO_DATES WHERE PID=ID; 
+ * END;
+ */
 public class FetchUsingProcedureTest {
 	//SQL query
 	private static final String PROCEDURE_FETCH_QUERY="{call PROCEDURE_GET_PERSON_DETAILS_BY_ID(?,?,?,?)}";
